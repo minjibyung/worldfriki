@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <title>PELICULAS</title>
+    <!-- <script src="pelis.js"></script>
+    <script src="jquery-3.6.1.js"></script> -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+
+        <h1 class="word">World <span>Friki</span></h1>
+        <ul class="menu1">
+            <li><a href="inicio.html" alt="inicio">INICIO</a></li>
+            <li><a href="INDEX1.HTML" alt="peliculas">PELICULAS</a></li>
+            <li><a href="series.html" alt="series">SERIES</a></li>
+            <li><a href="libros.html" alt="libros">LIBROS</a></li>
+        </ul>
+
+    </header>
+
+    <div class="field" id="searchform">
+        <input type="text" id="searchterm" placeholder="¿Que peliculas buscas?" />
+        <button type="button" id="search">Buscar</button>
+    </div>
+
+    <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+    <!-- <div class="all"> -->
+
+        <!-- <div id="listado"> -->
+            <div id="categoria">
+                <h1>Categorias</h1>
+    <input type="radio" name="filtro" id="todo" checked="yes">
+    <label for="todo">Todos</label>
+
+    <input type="radio" name="filtro" id="terror">
+    <label for="terror">Terror</label>
+
+    <input type="radio" name="filtro" id="accion">
+    <label for="accion">accion</label>
+    
+    <input type="radio" name="filtro" id="romance">
+    <label for="romance">romance</label>
+
+    <input type="radio" name="filtro" id="suspenso">
+    <label for="suspenso">suspenso</label>
+
+
+ <!-- <div class="lista"> -->
+    <section class="contenedor">
+        <div class="accion"></div>
+        <figure>
+            <img src="pelis/img1.jpg" alt="">
+            <div class="uno">
+                <h3>AVENGERS: ERA DE ULTRÓN</h3>
+                <P>Los Vengadores se reúnen de nuevo y juntan sus fuerzas con las de los recién llegados Quicksilver y Bruja Escarlata para luchar contra un robot maquiavélico llamado Ultrón, el cual Tony Stark creó con el fin de defender la paz, pero resultó
+                    defectuoso y ahora pretende exterminar a toda la humanidad.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=DMFBm_lp4rU" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img2.jpg" alt="">
+            <div class="uno">
+                <h3>JOKER</h3>
+                <P>Arthur Fleck adora hacer reír a la gente, pero su carrera como comediante es un fracaso. El repudio social, la marginación y una serie de trágicos acontecimientos lo conducen por el sendero de la locura y, finalmente, cae en el mundo del
+                    crimen.
+                </P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=EIyZqNbZQI8" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img4.jpg" alt="">
+            <div class="uno">
+                <h3>TOP GUN: PASION Y GLORIA</h3>
+                <P>El joven piloto Maverick Mitchell acude a una prestigiosa escuela aérea, famosa por formar a los mejores pilotos de combate del país. Maverick se siente atraído por su hermosa instructora, mientras desarrolla una intensa rivalidad con
+                    otro piloto.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=xa_z57UatDY" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img3.jpg" alt="">
+            <div class="uno">
+                <h3>TOP GUN: MAVERICK</h3>
+                <P>Maverick, quien lleva 30 años de servicio, es ahora instructor de pilotos militares. Una última misión, un sacrificio final, obliga a este maestro de los cielos a enfrentar las heridas abiertas del pasado y sus temores más profundos.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=zzBIzYmxatU" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="romance"></div>
+        <figure>
+            <img src="pelis/img5.jpg" alt="">
+            <div class="uno">
+                <h3>AFTER: AMOR INFINITO</h3>
+                <P>Una pareja debe decidir si continuar con su relación apasionada pero tóxica o hacer cambios dramáticos en sus vidas.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=bVjSl_AGSPQ" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img6.jpeg" alt="">
+            <div class="uno">
+                <h3>THOR: AMOR Y TRUENO</h3>
+                <P>Thor está buscando la paz interior, pero la irrupción de Gorr, el asesino de dioses, le obliga a volver al combate. Thor recluta a la Reina Valkiria, Korg y su exnovia, Jane Foster, para que lo ayuden a evitar la extinción de los dioses.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=ZaD7iZR0-5w" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="terror"></div>
+        <figure>
+            <img src="pelis/img7.png" alt="">
+            <div class="uno">
+                <h3>ZOMBIE APOCALYPSE</h3>
+                <P>Mientras el apocalipsis zombi sigue apoderándose de la Tierra, el soldado Rhys dedica su vida a capturar a supervivientes sanos y a muertos vivientes para que el Cirujano encuentre una cura para el mal que está acabando con la humanidad.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=ffayBRpx-Qw" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img8.jpg" alt="">
+            <div class="uno">
+                <h3>FALL</h3>
+                <P>Fall es una película estadounidense de suspenso y supervivencia de 2022 dirigida y coescrita por Scott Mann. La película está protagonizada por Grace Caroline Currey, Virginia Gardner, Mason Gooding y Jeffrey Dean Morgan. Fall fue lanzado
+                    en los Estados Unidos el 12 de agosto de 2022 por Lionsgate.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=yfbYuYLBt2Q" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="suspenso"></div>
+        <figure>
+            <img src="pelis/img9.jpg" alt="">
+            <div class="uno">
+                <h3>LA CHICA SALVAJE</h3>
+                <P>Una mujer solitaria que vive en los inhóspitos pantanos de Carolina del Norte se convierte en la principal sospechosa del asesinato de un hombre cuyo cadáver apareció en la zona. Sin embargo, la investigación revela que nada es lo que
+                    aparenta ser.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=8xtAmoyhQFE" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img10.jpg" alt="">
+            <div class="uno">
+                <h3>GODZILLA VS. KONG</h3>
+                <P>Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=RIKOJP9PHP0" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img11.jpg" alt="">
+            <div class="uno">
+                <h3>BEAST</h3>
+                <P>Un padre viudo y sus dos hijas se ven perseguidos por un enorme león salvaje en una reserva sudafricana.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=eyYNdOf6PPI" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img12.jpg" alt="">
+            <div class="uno">
+                <h3>BLACK ADAM</h3>
+                <P>Black Adam es una próxima película estadounidense de superhéroes basada en el personaje homónimo de DC Comics. Producida por DC Films, New Line Cinema, Seven Bucks Productions y FlynnPictureCo., y distribuida por Warner Bros. Pictures, pretende ser una derivación de ¡Shazam!</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=6FvFxKrdbew" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="suspenso"></div>
+        <figure>
+            <img src="pelis/img13.jpg" alt="">
+            <div class="uno">
+                <h3>REVENANT: EL RENACIDO</h3>
+                <P>El trampero Hugh Glass intenta vengarse de sus compañeros, quienes lo abandonaron herido en el bosque después de que lo atacó un oso, pensando que moriría, víctima de las lesiones y de la crudeza del entorno y del invierno. Sin embargo, el rencor que siente es más fuerte que cualquier adversidad, y Glass no permitirá que nada ni nadie le prive de saciar su odio.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=xJWb3l1TInI" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img14.jpg" alt="">
+            <div class="uno">
+                <h3>KING KONG</h3>
+                <P>Un grupo de exploradores, liderado por un extrovertido director de cine, visitan Skull Island para investigar todo lo relacionado con la leyenda del gorila gigante llamado King Kong. Ahí encuentran una jungla llena de criaturas prehistóricas.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=BJl-iK3rHDU" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="suspenso"></div>
+        <figure>
+            <img src="pelis/img15.jpg" alt="">
+            <div class="uno">
+                <h3>EL DIA DEL FIN DEL MUNDO</h3>
+                <P>Una familia emprende un viaje para encontrar un refugio seguro cuando un gran cometa arremete contra la Tierra. A medida que el apocalipsis se acerca, la increíble travesía termina en una batalla de último minuto para llegar a puerto seguro.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=bQHO0A00Ukg" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+
+    <div class="contenedor">
+        <div class="productos" class="accion"></div>
+        <figure>
+            <img src="pelis/img16.jpg" alt="">
+            <div class="uno">
+                <h3>EL SORPRENDENTE HOMBRE ARAÑA</h3>
+                <P>La investigación de Peter Parker para resolver la desaparición de sus padres lo coloca en el camino de un choque con el alter-ego mortal de un científico conocido como el Lagarto.</P>
+                <div class="link">
+                    <a href="https://www.youtube.com/watch?v=eou9olJruK4" target="_blank">TRAILER</a>
+                </div>
+            </div>
+        </figure>
+    </div>
+</section>
+</body>
+</html>
